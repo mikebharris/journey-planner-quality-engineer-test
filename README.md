@@ -7,14 +7,15 @@ The developers have already written code in Java but claimed that they didn't ha
 
 ## Your job
 
-Your job is to work out what we could use to write unit tests in Java for the existing code.  The scenarios for the unit tests are outlined in the __Acceptance Criteria__ section below.
+**Your job is to advise us as to what - in terms of libraries and tools - we could use to write unit tests in Java for the existing code.**  The scenarios for the unit tests are outlined in the __Acceptance Criteria__ section below.
 
-* You may use Google, ChatGPT or any another other resource to find reference resources for Java and unit testing.  
+* We are not expecting you to write the actual unit test code, although if you wish to, please go ahead.
+* You may use Google, ChatGPT or any another other resource to find reference resources for Java and unit testing.
 * As these are unit tests we do not foresee the need for using Cucumber/Gherkin for these tests, but that is entirely up to you.  We will be interested in the decision you make and the justification for it.
 * The full train timetable for testing is provided in the [TestData](src/test/java/journey_planner/TestData.java) Java class.
-* We would expect you to write at least one test per acceptance criterium.
+* We would expect the development team to write at least one test per acceptance criterium.
 * It should be possible to run the tests using `gradle clean test` (Linux/Mac) or `./gradlew clean test` (Windows)
-* We welcome any comments you have about the existing code, and this exercise, should you wish to provide them.
+* If you wish to provide them, we would welcome any comments you have about the existing code, and this exercise.
  
 ## Acceptance Criteria
 |Criterion|Given|When|Then|
